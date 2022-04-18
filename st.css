@@ -1,0 +1,52 @@
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 650;
+  }
+
+  header {
+    display: flex;
+    padding: .5rem 3%;
+    justify-content: space-between;
+    font-size: 30px;
+    background-color:rgb(185, 184, 183);
+ }
+
+a {
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+ footer {
+    background-color:rgb(185, 184, 183);
+    text-align: center;
+    font-size: 20px ;
+  }
+
+  form {
+      text-align: center;
+      font-size: 20px;
+  }
+
+
+  section {
+    text-align:justify;
+  }
+
+  samp {
+      font-size: 20px;
+  }
+
+  img {
+      float: left;
+      padding: .2rem 1%;
+  }
+
