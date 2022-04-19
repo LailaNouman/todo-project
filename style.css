@@ -1,11 +1,15 @@
+body {
+background-color: rgb(83, 80, 80);
+}
 
 * {
     margin: 0;
     padding: 0;
     outline: none;
     border: none;
-    text-decoration: none;  
-}
+    text-decoration: none; 
+    color: black; 
+  }
 
 .center {
     margin-left: auto;
@@ -19,22 +23,22 @@
   }
 
 header {
+  background-color: darkgray;
    display: flex;
    padding: .5rem 3%;
    justify-content: space-between;
    align-items: center;
    font-size: 30px;
-   background-color:rgb(185, 184, 183);
 }
 
 footer {
-  background-color:rgb(185, 184, 183);
+  background-color:darkgray;
   text-align: center;
   font-size: 20px ;
 }
 
 table, th, td {
-  border: 1px solid black;
+  border: 2px solid white;
   width: 500px;
   height: 80px;
   font-size: 30px;
